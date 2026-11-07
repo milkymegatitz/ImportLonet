@@ -1,4 +1,4 @@
-Loneti PNG Importer | расширение Chrome / Chromium
+ PNG Importer | расширение Chrome / Chromium
 =================================================
 
 УСТАНОВКА (один раз)
