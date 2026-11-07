@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Loneti: импорт PNG",
+  "version": "1.0.0",
+  "description": "Переносит PNG/JPG/WebP в активный слой рисовалки Loneti без консоли.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://loneti.art/*",
+        "*://www.loneti.art/*",
+        "*://loneti.ru/*",
+        "*://www.loneti.ru/*"
+      ],
+      "js": ["importer.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
